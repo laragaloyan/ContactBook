@@ -1,4 +1,4 @@
-package com.contactbook.contactbook;
+package com.contactbook.contactbook.model;
 
 public class Contact {
     private String name;

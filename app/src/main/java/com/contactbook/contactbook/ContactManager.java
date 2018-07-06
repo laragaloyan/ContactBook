@@ -1,4 +1,6 @@
 package com.contactbook.contactbook;
+import com.contactbook.contactbook.model.Contact;
+
 import java.util.ArrayList;
 import java.util.List;
 
