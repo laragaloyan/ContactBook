@@ -88,10 +88,7 @@ while (phones.moveToNext())
 
             if (ActivityCompat.shouldShowRequestPermissionRationale(getActivity(),
                     Manifest.permission.READ_CONTACTS)) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                /*builder.setTitle("ContactManager access needed");
-                builder.setPositiveButton(android.R.string.ok, null);
-                builder.setMessage("please confirm ContactManager access");//TODO put real question*/
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity())
                 builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
                     @Override
                     public void onDismiss(DialogInterface dialog) {
